@@ -9,64 +9,17 @@ type SetLog = { reps: number; weight_kg: number }
 function ExerciseMedia({ url, name }: { url: string; name: string }) {
   if (!url) return null
 
-  const isVideo = url.endsWith('.mp4') || url.endsWith('.webm') || url.includes('mixkit.co')
-  // ExerciseDB API returns GIF images (no extension in URL)
-  const isExerciseDB = url.includes('api.exercisedb.io')
-  const isGif = url.endsWith('.gif') || isExerciseDB
-
-  if (isVideo) {
-    return (
-      <div className="rounded-xl overflow-hidden mb-4" style={{ background: 'var(--surface-2)', maxHeight: '260px' }}>
-        <video
-          src={url}
-          autoPlay
-          loop
-          muted
-          playsInline
-          crossOrigin="anonymous"
-          className="w-full object-cover"
-          style={{ maxHeight: '260px' }}
-          onError={e => {
-            const el = e.target as HTMLVideoElement
-            el.style.display = 'none'
-            const parent = el.parentElement
-            if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Không tải được video demo</div>`
-          }}
-        />
-      </div>
-    )
-  }
-
-  if (isGif) {
-    return (
-      <div className="rounded-xl overflow-hidden mb-4 flex items-center justify-center"
-        style={{ background: '#000', minHeight: '220px', maxHeight: '300px', position: 'relative' }}>
-        <img
-          src={url}
-          alt={`Demo ${name}`}
-          className="object-contain w-full"
-          style={{ maxHeight: '300px', display: 'block' }}
-          onError={e => {
-            const parent = (e.target as HTMLImageElement).parentElement
-            if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo cho bài này</div>`
-          }}
-        />
-      </div>
-    )
-  }
-
-  // SVG hoặc ảnh tĩnh khác
   return (
     <div className="rounded-xl overflow-hidden mb-4 flex items-center justify-center"
-      style={{ background: 'var(--surface-2)', border: '1px solid var(--border)', minHeight: '120px', padding: '16px' }}>
+      style={{ background: 'var(--surface-2)', border: '1px solid var(--border)', minHeight: '180px' }}>
       <img
         src={url}
         alt={`Demo ${name}`}
-        className="object-contain"
-        style={{ maxHeight: '160px', maxWidth: '100%', opacity: 0.85 }}
+        className="w-full object-cover"
+        style={{ maxHeight: '280px', display: 'block' }}
         onError={e => {
           const parent = (e.target as HTMLImageElement).parentElement
-          if (parent) parent.innerHTML = `<div style="padding:16px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo cho bài này</div>`
+          if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo cho bài này</div>`
         }}
       />
     </div>
