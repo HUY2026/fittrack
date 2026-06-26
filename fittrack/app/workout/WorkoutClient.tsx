@@ -11,12 +11,11 @@ function ExerciseMedia({ url, name }: { url: string; name: string }) {
 
   return (
     <div className="rounded-xl overflow-hidden mb-4 flex items-center justify-center"
-      style={{ background: 'var(--surface-2)', border: '1px solid var(--border)', minHeight: '180px' }}>
+      style={{ background: 'var(--surface-2)', border: '1px solid var(--border)', padding: '8px' }}>
       <img
         src={url}
         alt={`Demo ${name}`}
-        className="w-full object-cover"
-        style={{ maxHeight: '280px', display: 'block' }}
+        style={{ maxHeight: '320px', maxWidth: '100%', objectFit: 'contain', display: 'block', borderRadius: '8px' }}
         onError={e => {
           const parent = (e.target as HTMLImageElement).parentElement
           if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo cho bài này</div>`
