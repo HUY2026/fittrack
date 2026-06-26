@@ -45,7 +45,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông võng xuống',
           'Không khóa khuỷu tay hoàn toàn khi đẩy lên',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Up_Wide/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1311-JmMVpR3.gif',
       },
       {
         id: 'pike-push-up',
@@ -65,7 +65,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông thụt xuống khi đẩy lên',
           'Không hạ quá nhanh, dễ chấn thương vai',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0471-rQxwMxO.gif',
       },
       {
         id: 'dumbbell-fly',
@@ -85,7 +85,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không duỗi thẳng hoàn toàn khuỷu tay — dễ chấn thương',
           'Không dùng đà lắc người',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Flyes/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0308-yz9nUhF.gif',
       },
       {
         id: 'lateral-raise',
@@ -105,7 +105,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không nhún vai khi nâng — loại bỏ cơ vai ra',
           'Không dùng momentum lắc người',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Lateral_Raise/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0334-DsgkuIt.gif',
       },
       {
         id: 'incline-push-up',
@@ -123,7 +123,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để khuỷu tay bè quá rộng ra ngoài',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Wide/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0493-B1EVP9F.gif',
       },
     ],
   },
@@ -151,7 +151,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không đu đưa hay dùng đà chân',
           'Không để vai nhô lên tai khi treo',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0652-lBDjFxJ.gif',
       },
       {
         id: 'bent-over-row',
@@ -171,7 +171,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không cong lưng — chấn thương cột sống',
           'Không dùng đà giật tạ lên',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_Two-Dumbbell_Row/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0293-BJ0Hz5L.gif',
       },
       {
         id: 'superman',
@@ -190,7 +190,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không nhìn thẳng lên — giữ cổ trung lập',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0803-4GqRrAk.gif',
       },
       {
         id: 'tricep-dip',
@@ -210,7 +210,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không hạ quá thấp — áp lực vai quá lớn',
           'Không để vai nhô lên tai',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bench_Dips/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0814-X6C6i5Y.gif',
       },
       {
         id: 'face-pull-band',
@@ -228,7 +228,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không kéo về phía cổ — kéo về phía tai',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Face_Pull/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0662-I4hDWkc.gif',
       },
     ],
   },
@@ -256,7 +256,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để gối sập vào trong (valgus)',
           'Không cong lưng khi đứng dậy',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0662-I4hDWkc.gif',
       },
       {
         id: 'reverse-lunge',
@@ -275,7 +275,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để thân người đổ về trước',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Walking_Lunge/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1460-IZVHb27.gif',
       },
       {
         id: 'glute-bridge',
@@ -294,7 +294,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng lưng để đẩy — đẩy bằng gót chân và mông',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt_Lift_Bridge/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3561-GibBPPg.gif',
       },
       {
         id: 'plank',
@@ -313,7 +313,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để hông cao hoặc võng xuống',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0662-I4hDWkc.gif',
       },
       {
         id: 'hanging-knee-raise',
@@ -332,7 +332,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng đà đu đưa để nâng gối lên',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Pike/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1761-BaE7O6U.gif',
       },
     ],
   },
@@ -359,7 +359,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không lắc người — cô lập hoàn toàn tay trước',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Curl/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0294-NbVPDMW.gif',
       },
       {
         id: 'hammer-curl',
@@ -377,7 +377,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng đà vai để đẩy tạ',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Alternate_Hammer_Curl/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0313-slDvUAU.gif',
       },
       {
         id: 'overhead-press',
@@ -397,7 +397,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không ưỡn lưng quá nhiều khi đẩy',
           'Không để vai nhô lên',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shoulder_Press/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0426-A6wtbuL.gif',
       },
       {
         id: 'front-raise',
@@ -415,7 +415,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không nâng quá ngang vai — không cần thiết, hại khớp',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Alternating_Deltoid_Raise/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0310-3eGE2JC.gif',
       },
       {
         id: 'reverse-curl',
@@ -433,7 +433,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng tạ quá nặng — cổ tay dễ chấn thương',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Dumbbell_Reverse_Curl/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0425-DU5Kkj2.gif',
       },
     ],
   },
@@ -454,7 +454,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         weight_note: 'HIIT: 30 giây làm, 15 giây nghỉ',
         tips: ['Nhảy nhịp nhàng, không đổ người về phía trước'],
         avoid: ['Không tiếp đất bằng gót chân'],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rope_Jumping/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1160-dK9394r.gif',
       },
       {
         id: 'burpee',
@@ -473,7 +473,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không đua tốc độ đến mức mất form',
           'Không hạ lưng xuống khi plank',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plyo_Push-up/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1160-dK9394r.gif',
       },
       {
         id: 'mountain-climber',
@@ -489,7 +489,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Kéo gối về ngực xen kẽ nhanh',
         ],
         avoid: ['Không để hông nhô lên'],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0630-RJgzwny.gif',
       },
       {
         id: 'squat-jump',
@@ -505,7 +505,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Tiếp đất nhẹ nhàng bằng nửa trước bàn chân',
         ],
         avoid: ['Không tiếp đất cứng bằng gót'],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Pull-In/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0514-LIlE5Tn.gif',
       },
       {
         id: 'high-knees',
@@ -521,7 +521,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Đánh tay mạnh để tăng tốc',
         ],
         avoid: ['Không nhìn xuống đất'],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Exercise_Ball_Pull-In/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3636-ealLwvX.gif',
       },
     ],
   },
@@ -549,7 +549,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không nhảy quá cao — tốn năng lượng vô ích',
           'Không tiếp đất bằng gót chân',
         ],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rope_Jumping/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2612-e1e76I2.gif',
       },
       {
         id: 'dead-bug',
@@ -566,7 +566,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Giữ lưng dưới dán sàn suốt bài',
         ],
         avoid: ['Không để lưng dưới cong lên khỏi sàn'],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0276-iny3m5y.gif',
       },
       {
         id: 'side-plank',
@@ -582,7 +582,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Hông không võng xuống',
         ],
         avoid: ['Không để vai gần tai'],
-        gif_url: 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push_Up_to_Side_Plank/0.jpg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3544-5VXmnV5.gif',
       },
     ],
   },
