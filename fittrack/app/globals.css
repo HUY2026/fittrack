@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: Tahoma, Geneva, sans-serif;
+  --font-body: Tahoma, Geneva, sans-serif;
+  --font-mono: 'Courier New', monospace;
+
+  /* Brand */
+  --orange: #e8620a;
+  --orange-dark: #c9510a;
+  --orange-glow: rgba(232, 98, 10, 0.12);
+
+  /* Surfaces */
+  --bg: #ffffff;
+  --surface: #f5f5f5;
+  --surface-2: #eeeeee;
+  --surface-3: #e0e0e0;
+  --border: rgba(0,0,0,0.10);
+  --border-strong: rgba(0,0,0,0.20);
+
+  /* Text */
+  --text: #1a1a1a;
+  --text-2: #555555;
+  --text-3: #888888;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3 { font-family: var(--font-display); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 2px; }
+
+/* Card component */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.card-hover {
+  transition: border-color 0.2s, transform 0.2s;
+}
+.card-hover:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+/* Orange accent glow */
+.glow-orange {
+  box-shadow: 0 0 24px var(--orange-glow);
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 6px;
+  background: var(--surface-3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--orange), var(--orange-dark));
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Stat number */
+.stat-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+/* Input */
+.input-dark {
+  background: #ffffff;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: var(--font-body);
+  width: 100%;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.input-dark:focus {
+  border-color: var(--orange);
+}
+.input-dark::placeholder {
+  color: var(--text-3);
+}
+
+/* Button */
+.btn-primary {
+  background: var(--orange);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+.btn-primary:hover { background: var(--orange-dark); }
+.btn-primary:active { transform: scale(0.98); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-ghost:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+/* Recharts override */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: rgba(0,0,0,0.06) !important;
+}
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: #ffffff !important;
+  border: 1px solid var(--border-strong) !important;
+  border-radius: 8px !important;
+  color: var(--text) !important;
+}
+
+/* Animate */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+.animate-fade-in { animation: fadeIn 0.3s ease; }
+@keyframes slideUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.animate-slide-up { animation: slideUp 0.25s ease; }
