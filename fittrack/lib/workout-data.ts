@@ -45,7 +45,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông võng xuống',
           'Không khóa khuỷu tay hoàn toàn khi đẩy lên',
         ],
-        gif_url: 'https://assets.mixkit.co/videos/preview/mixkit-man-doing-push-ups-at-home-4894-large.mp4',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1311-JmMVpR3.gif',
       },
       {
         id: 'pike-push-up',
@@ -65,7 +65,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông thụt xuống khi đẩy lên',
           'Không hạ quá nhanh, dễ chấn thương vai',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-2.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0471-rQxwMxO.gif',
       },
       {
         id: 'dumbbell-fly',
@@ -85,7 +85,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không duỗi thẳng hoàn toàn khuỷu tay — dễ chấn thương',
           'Không dùng đà lắc người',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-4.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0308-yz9nUhF.gif',
       },
       {
         id: 'lateral-raise',
@@ -105,7 +105,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không nhún vai khi nâng — loại bỏ cơ vai ra',
           'Không dùng momentum lắc người',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-2.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0334-DsgkuIt.gif',
       },
       {
         id: 'incline-push-up',
@@ -123,7 +123,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để khuỷu tay bè quá rộng ra ngoài',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-4.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0493-B1EVP9F.gif',
       },
     ],
   },
@@ -151,7 +151,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không đu đưa hay dùng đà chân',
           'Không để vai nhô lên tai khi treo',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-12.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0652-lBDjFxJ.gif',
       },
       {
         id: 'bent-over-row',
@@ -171,28 +171,26 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không cong lưng — chấn thương cột sống',
           'Không dùng đà giật tạ lên',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-12.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0293-BJ0Hz5L.gif',
       },
       {
-        id: 'superman-hold',
+        id: 'superman',
         name: 'Superman Hold',
-        name_vi: 'Superman Hold (Lưng dưới)',
+        name_vi: 'Superman (Lưng dưới)',
         muscle_group: 'Lưng dưới',
         sets: 3,
         reps: '15',
         rest_sec: 45,
-        weight_note: 'Bodyweight — giữ mỗi rep 3 giây để tối đa kích hoạt erector spinae. Làm cuối buổi T3.',
+        weight_note: 'Bodyweight — giữ mỗi rep 2 giây',
         tips: [
-          'Nằm sấp, tay duỗi thẳng ra trước (hoặc để sau gáy nếu muốn khó hơn)',
-          'Nâng đồng thời ngực + hai chân lên khỏi sàn — giữ 3 giây',
-          'Siết cơ dọc cột sống (erector spinae) và mông tối đa ở đỉnh',
-          'Hạ xuống chậm rãi, không đập người xuống sàn',
+          'Nằm sấp, tay duỗi về phía trước',
+          'Nâng tay và chân lên cùng lúc',
+          'Siết mông và lưng khi nâng',
         ],
         avoid: [
-          'Không nhìn thẳng lên — cổ giữ trung lập, mắt nhìn xuống sàn',
-          'Không nín thở — thở ra khi nâng lên',
+          'Không nhìn thẳng lên — giữ cổ trung lập',
         ],
-        gif_url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Superman_exercise.gif',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0803-4GqRrAk.gif',
       },
       {
         id: 'tricep-dip',
@@ -212,7 +210,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không hạ quá thấp — áp lực vai quá lớn',
           'Không để vai nhô lên tai',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-5.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0814-X6C6i5Y.gif',
       },
       {
         id: 'face-pull-band',
@@ -230,15 +228,15 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không kéo về phía cổ — kéo về phía tai',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-2.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0662-I4hDWkc.gif',
       },
     ],
   },
   {
     day: 'T4',
     day_vi: 'Thứ 4',
-    muscle_groups: 'Chân + Mông + Lưng dưới',
-    duration_min: '45–50',
+    muscle_groups: 'Chân + Core',
+    duration_min: '40–45',
     exercises: [
       {
         id: 'squat',
@@ -258,7 +256,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để gối sập vào trong (valgus)',
           'Không cong lưng khi đứng dậy',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-10.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0662-I4hDWkc.gif',
       },
       {
         id: 'reverse-lunge',
@@ -277,7 +275,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để thân người đổ về trước',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-11.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1460-IZVHb27.gif',
       },
       {
         id: 'glute-bridge',
@@ -296,51 +294,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng lưng để đẩy — đẩy bằng gót chân và mông',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-8.svg',
-      },
-      {
-        id: 'roman-chair-back-extension',
-        name: 'Roman Chair Back Extension',
-        name_vi: 'Roman Chair Back Extension (Lưng dưới)',
-        muscle_group: 'Lưng dưới',
-        sets: 4,
-        reps: '15–20',
-        rest_sec: 60,
-        weight_note: 'Tuần 1–2: bodyweight. Tuần 3–4: ôm tạ 5kg. Tuần 5+: 7–9kg. Làm sau RDL / Glute Bridge.',
-        tips: [
-          'Setup ghế: pad nằm ngay dưới xương chậu — không phải ở bụng, không phải ở giữa đùi',
-          'Móc chân vào thanh đỡ dưới, bắt đầu ở tư thế cúi 90° xuống lưng thẳng',
-          'Nâng thân lên bằng cách siết erector spinae và mông — không dùng đà giật',
-          'Dừng khi thân thẳng hàng với chân, giữ 2 giây — không ưỡn quá ra sau',
-          'Hạ xuống chậm 3 giây để tận dụng eccentric',
-        ],
-        avoid: [
-          'Không hyperextend (ưỡn lưng quá ra sau) — áp lực đĩa đệm rất lớn',
-          'Không cong lưng tròn khi hạ xuống — lưng thẳng suốt bài',
-          'Nếu cảm thấy đau buốt lan xuống chân — dừng ngay, đây là dấu hiệu dây thần kinh',
-        ],
-        gif_url: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Back-extension.gif',
-      },
-      {
-        id: 'bird-dog',
-        name: 'Bird Dog',
-        name_vi: 'Bird Dog (Lưng dưới + Core ổn định)',
-        muscle_group: 'Lưng dưới + Core',
-        sets: 3,
-        reps: '12/bên',
-        rest_sec: 45,
-        weight_note: 'Bodyweight — bài phục hồi chuẩn y khoa cho đau lưng do ngồi nhiều. Làm ngay sau Roman Chair.',
-        tips: [
-          'Quỳ 4 điểm: tay thẳng dưới vai, gối thẳng dưới hông',
-          'Duỗi đồng thời tay phải + chân trái ra thẳng, giữ 3 giây rồi đổi bên',
-          'Lưng phẳng như mặt bàn suốt bài — có thể đặt ly nước lên lưng để kiểm tra',
-          'Siết core và mông khi giữ để tối đa activation lưng dưới',
-        ],
-        avoid: [
-          'Không để hông xoay hay nâng lên khi duỗi chân — lỗi phổ biến nhất',
-          'Không vươn tay chân quá cao — ngang thân người là đủ',
-        ],
-        gif_url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Bird-dog_exercise.gif',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3561-GibBPPg.gif',
       },
       {
         id: 'plank',
@@ -359,7 +313,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để hông cao hoặc võng xuống',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-6.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0662-I4hDWkc.gif',
       },
       {
         id: 'hanging-knee-raise',
@@ -378,7 +332,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng đà đu đưa để nâng gối lên',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-6.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1761-BaE7O6U.gif',
       },
     ],
   },
@@ -405,7 +359,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không lắc người — cô lập hoàn toàn tay trước',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-1.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0294-NbVPDMW.gif',
       },
       {
         id: 'hammer-curl',
@@ -423,7 +377,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng đà vai để đẩy tạ',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-1.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0313-slDvUAU.gif',
       },
       {
         id: 'overhead-press',
@@ -443,7 +397,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không ưỡn lưng quá nhiều khi đẩy',
           'Không để vai nhô lên',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-2.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0426-A6wtbuL.gif',
       },
       {
         id: 'front-raise',
@@ -461,7 +415,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không nâng quá ngang vai — không cần thiết, hại khớp',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-2.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0310-3eGE2JC.gif',
       },
       {
         id: 'reverse-curl',
@@ -479,7 +433,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không dùng tạ quá nặng — cổ tay dễ chấn thương',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-1.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0425-DU5Kkj2.gif',
       },
     ],
   },
@@ -500,7 +454,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         weight_note: 'HIIT: 30 giây làm, 15 giây nghỉ',
         tips: ['Nhảy nhịp nhàng, không đổ người về phía trước'],
         avoid: ['Không tiếp đất bằng gót chân'],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-10.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1160-dK9394r.gif',
       },
       {
         id: 'burpee',
@@ -519,7 +473,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không đua tốc độ đến mức mất form',
           'Không hạ lưng xuống khi plank',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-10.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1160-dK9394r.gif',
       },
       {
         id: 'mountain-climber',
@@ -535,7 +489,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Kéo gối về ngực xen kẽ nhanh',
         ],
         avoid: ['Không để hông nhô lên'],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-6.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0630-RJgzwny.gif',
       },
       {
         id: 'squat-jump',
@@ -551,7 +505,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Tiếp đất nhẹ nhàng bằng nửa trước bàn chân',
         ],
         avoid: ['Không tiếp đất cứng bằng gót'],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-11.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0514-LIlE5Tn.gif',
       },
       {
         id: 'high-knees',
@@ -567,7 +521,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Đánh tay mạnh để tăng tốc',
         ],
         avoid: ['Không nhìn xuống đất'],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-10.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3636-ealLwvX.gif',
       },
     ],
   },
@@ -595,7 +549,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không nhảy quá cao — tốn năng lượng vô ích',
           'Không tiếp đất bằng gót chân',
         ],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-10.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2612-e1e76I2.gif',
       },
       {
         id: 'dead-bug',
@@ -612,7 +566,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Giữ lưng dưới dán sàn suốt bài',
         ],
         avoid: ['Không để lưng dưới cong lên khỏi sàn'],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-6.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0276-iny3m5y.gif',
       },
       {
         id: 'side-plank',
@@ -628,20 +582,10 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Hông không võng xuống',
         ],
         avoid: ['Không để vai gần tai'],
-        gif_url: 'https://wger.de/static/images/muscles/main/muscle-6.svg',
+        gif_url: 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3544-5VXmnV5.gif',
       },
     ],
   },
 ]
 
-export const MEAL_PLAN = [
-  { meal: 'Sáng', items: 'Bún bò / bánh mì + chả + cà phê ít sữa', calories: 500, protein: 25 },
-  { meal: 'Trưa', items: 'Cơm + thức ăn (tăng phần thịt) + cà phê ít sữa', calories: 600, protein: 35 },
-  { meal: 'Chiều', items: 'Cà phê đen / trà xanh / trà oolong không đường', calories: 5, protein: 0 },
-  { meal: 'Pre-workout', items: '1–2 chuối (trước tập 30–45 phút)', calories: 175, protein: 2 },
-  { meal: 'Sau tập', items: 'Whey 1 scoop pha nước', calories: 120, protein: 25 },
-  { meal: 'Tối', items: '200g cơm + 90g cá ngừ + 2 trứng luộc', calories: 520, protein: 42 },
-]
-
-export const DAILY_TARGET = { calories: 1920, protein: 130 }
 export const GOAL = { start_weight: 79, target_weight: 64, target_bodyfat_min: 10, target_bodyfat_max: 12 }
