@@ -34,10 +34,10 @@ export default function DashboardClient() {
   const totalToLose = GOAL.start_weight - GOAL.target_weight
   const progress = Math.min((lost / totalToLose) * 100, 100)
 
-  const weekDays = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7']
-  const dayLabels: Record<string, string> = { T2: 'Ngực+Vai', T3: 'Lưng+Tay sau', T4: 'Chân+Core', T5: 'Tay+Vai', T6: 'HIIT', T7: 'Nhảy dây' }
+  const weekDays = ['T2', 'T3', 'T4', 'T5', 'T6']
+  const dayLabels: Record<string, string> = { T2: 'Ngực+Vai+Tricep', T3: 'Lưng+Bicep', T4: 'Chân+Mông+Core', T5: 'Vai+Core', T6: 'Full Body HIIT' }
 
-  const todayDayMap: Record<number, string> = { 1: 'T2', 2: 'T3', 3: 'T4', 4: 'T5', 5: 'T6', 6: 'T7' }
+  const todayDayMap: Record<number, string> = { 1: 'T2', 2: 'T3', 3: 'T4', 4: 'T5', 5: 'T6' }
   const todayWorkoutDay = todayDayMap[today.getDay()]
 
   return (
