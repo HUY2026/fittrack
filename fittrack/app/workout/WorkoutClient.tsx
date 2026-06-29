@@ -9,18 +9,39 @@ type SetLog = { reps: number; weight_kg: number }
 function ExerciseMedia({ url, name }: { url: string; name: string }) {
   if (!url) return null
 
+  const isVideo = url.endsWith('.mp4') || url.endsWith('.webm')
+  const isSvg = url.endsWith('.svg')
+
+  // SVG từ wger.de là ảnh cơ bắp tĩnh — không hiển thị làm demo
+  if (isSvg) return null
+
   return (
     <div className="rounded-xl overflow-hidden mb-4 flex items-center justify-center"
-      style={{ background: 'var(--surface-2)', border: '1px solid var(--border)', padding: '8px' }}>
-      <img
-        src={url}
-        alt={`Demo ${name}`}
-        style={{ maxHeight: '320px', maxWidth: '100%', objectFit: 'contain', display: 'block', borderRadius: '8px' }}
-        onError={e => {
-          const parent = (e.target as HTMLImageElement).parentElement
-          if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo cho bài này</div>`
-        }}
-      />
+      style={{ background: 'var(--surface-2)', border: '1px solid var(--border)', minHeight: '160px' }}>
+      {isVideo ? (
+        <video
+          src={url}
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ maxHeight: '320px', maxWidth: '100%', objectFit: 'contain', display: 'block', borderRadius: '8px' }}
+          onError={e => {
+            const parent = (e.target as HTMLVideoElement).parentElement
+            if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo video cho bài này</div>`
+          }}
+        />
+      ) : (
+        <img
+          src={url}
+          alt={`Demo ${name}`}
+          style={{ maxHeight: '320px', maxWidth: '100%', objectFit: 'contain', display: 'block', borderRadius: '8px', padding: '8px' }}
+          onError={e => {
+            const parent = (e.target as HTMLImageElement).parentElement
+            if (parent) parent.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-3);font-size:13px">Chưa có demo cho bài này</div>`
+          }}
+        />
+      )}
     </div>
   )
 }
