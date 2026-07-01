@@ -22,7 +22,7 @@ export type WorkoutDay = {
   exercises: Exercise[]
 }
 
-const BASE = 'https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/'
+const BASE = '/gifs/'
 
 export const WORKOUT_PLAN: WorkoutDay[] = [
   {
@@ -50,7 +50,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để khuỷu bè 90 độ ra ngoài — hại vai',
           'Không nảy tạ lên bằng ngực',
         ],
-        gif_url: BASE + '0289-SpYC0Kp.gif',
+        gif_url: BASE + 'chest-press.gif',
         superset: 'A',
       },
       {
@@ -71,7 +71,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không nhún vai — loại cơ bẫy ra khỏi bài',
           'Không swing người để nâng',
         ],
-        gif_url: BASE + '0334-DsgkuIt.gif',
+        gif_url: BASE + 'lateral-raise.gif',
         superset: 'A',
       },
       {
@@ -92,7 +92,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để ghế quá dốc (>60°) — thành bài vai',
           'Không để lưng rời ghế',
         ],
-        gif_url: BASE + '0314-ns0SIbU.gif',
+        gif_url: BASE + 'incline-press.gif',
         superset: 'B',
       },
       {
@@ -113,7 +113,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không ưỡn lưng để đẩy tạ',
           'Không để cổ tay gãy ra sau',
         ],
-        gif_url: BASE + '0426-A6wtbuL.gif',
+        gif_url: BASE + 'overhead-press.gif',
         superset: 'B',
       },
       {
@@ -134,7 +134,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để khuỷu rớt xuống khi đẩy',
           'Không swing cánh tay',
         ],
-        gif_url: BASE + '0333-W6PxUkg.gif',
+        gif_url: BASE + 'tricep-kickback.gif',
         superset: null,
       },
     ],
@@ -164,7 +164,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không rotate thân mình khi kéo — mất cô lập lưng',
           'Không kéo bằng cơ tay — dẫn bằng khuỷu',
         ],
-        gif_url: BASE + '0292-C0MA9bC.gif',
+        gif_url: BASE + 'one-arm-row.gif',
         superset: 'A',
       },
       {
@@ -185,7 +185,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không swing người để "ăn gian" — vô nghĩa',
           'Không để khuỷu bị đẩy ra trước',
         ],
-        gif_url: BASE + '0294-NbVPDMW.gif',
+        gif_url: BASE + 'bicep-curl.gif',
         superset: 'A',
       },
       {
@@ -206,7 +206,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không dùng lực đà lắc người',
           'Không để bả vai không siết — mất activation lưng giữa',
         ],
-        gif_url: BASE + '0327-7vG5o25.gif',
+        gif_url: BASE + 'incline-row.gif',
         superset: 'B',
       },
       {
@@ -226,7 +226,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không xoay cổ tay — phải giữ neutral grip suốt',
         ],
-        gif_url: BASE + '0313-slDvUAU.gif',
+        gif_url: BASE + 'hammer-curl.gif',
         superset: 'B',
       },
       {
@@ -246,7 +246,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không xoay vai tròn — không có lợi, dễ chấn thương',
         ],
-        gif_url: BASE + '0406-NJzBsGJ.gif',
+        gif_url: BASE + 'shrug.gif',
         superset: null,
       },
       {
@@ -268,7 +268,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không nhìn thẳng lên — cổ giữ trung lập, mắt nhìn xuống sàn',
           'Không nín thở — thở ra khi nâng lên',
         ],
-        gif_url: BASE + '0803-4GqRrAk.gif',
+        gif_url: BASE + 'superman.gif',
         superset: null,
       },
     ],
@@ -298,7 +298,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để lưng cong — ngực phải luôn hướng lên',
           'Không nhón gót chân lên',
         ],
-        gif_url: BASE + '0662-I4hDWkc.gif',
+        gif_url: BASE + 'goblet-squat.gif',
         superset: 'A',
       },
       {
@@ -319,7 +319,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không cong lưng — giữ lưng thẳng suốt',
           'Không hạ tạ quá thấp nếu lưng bắt đầu cong',
         ],
-        gif_url: BASE + '1459-rR0LJzx.gif',
+        gif_url: BASE + 'rdl.gif',
         superset: 'A',
       },
       {
@@ -340,7 +340,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để thân người đổ về trước',
           'Không để gối trước vượt qua mũi chân',
         ],
-        gif_url: BASE + '0381-SSsBDwB.gif',
+        gif_url: BASE + 'reverse-lunge.gif',
         superset: 'B',
       },
       {
@@ -361,7 +361,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không dùng lưng để đẩy — phải cảm nhận mông làm việc',
           'Không để đầu gối đổ vào trong',
         ],
-        gif_url: BASE + '3561-GibBPPg.gif',
+        gif_url: BASE + 'glute-bridge.gif',
         superset: 'B',
       },
       {
@@ -382,7 +382,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông xoay hay nâng lên khi row',
           'Bài này cần balance hơn sức mạnh — đừng dùng tạ quá nặng',
         ],
-        gif_url: BASE + '0521-b9kqlBy.gif',
+        gif_url: BASE + 'plank.gif',
         superset: null,
       },
       {
@@ -405,7 +405,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không cong lưng tròn khi hạ xuống — lưng thẳng suốt bài',
           'Nếu cảm thấy đau lưng (không phải mỏi cơ) — dừng ngay, kiểm tra setup ghế',
         ],
-        gif_url: BASE + '1314-qLpO4vV.gif',
+        gif_url: BASE + 'back-extension.gif',
         superset: null,
       },
       {
@@ -427,7 +427,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông xoay hay nâng lên khi duỗi chân',
           'Không vươn tay chân quá cao — ngang thân người là đủ',
         ],
-        gif_url: BASE + '0276-iny3m5y.gif',
+        gif_url: BASE + 'dead-bug.gif',
         superset: null,
       },
     ],
@@ -457,7 +457,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không đẩy quá nhanh — mất movement pattern',
           'Không để lưng ưỡn quá mức',
         ],
-        gif_url: BASE + '2137-Xy4jlWA.gif',
+        gif_url: BASE + 'arnold-press.gif',
         superset: null,
       },
       {
@@ -478,7 +478,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không swing người cho cả 2 bài',
           'Không nâng quá ngang vai — hại khớp vai',
         ],
-        gif_url: BASE + '0334-DsgkuIt.gif',
+        gif_url: BASE + 'lateral-raise.gif',
         superset: 'A',
       },
       {
@@ -499,7 +499,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không dùng tạ quá nặng — vai sau nhỏ và dễ chấn thương',
           'Không để cổ căng — nhìn xuống sàn',
         ],
-        gif_url: BASE + '0383-EAs3xL9.gif',
+        gif_url: BASE + 'reverse-fly.gif',
         superset: 'B',
       },
       {
@@ -520,7 +520,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không kéo rộng tay ra ngoài — hại vai',
           'Không kéo quá cao — đến cằm là đủ',
         ],
-        gif_url: BASE + '0437-ainizkb.gif',
+        gif_url: BASE + 'upright-row.gif',
         superset: 'B',
       },
       {
@@ -540,7 +540,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không để lưng vồng lên khi làm dead bug',
         ],
-        gif_url: BASE + '0276-iny3m5y.gif',
+        gif_url: BASE + 'bird-dog.gif',
         superset: null,
       },
     ],
@@ -570,7 +570,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để lưng cong khi squat',
           'Không làm quá nhanh đến mất form',
         ],
-        gif_url: BASE + '1700-FS63wTN.gif',
+        gif_url: BASE + 'thruster.gif',
         superset: null,
       },
       {
@@ -591,7 +591,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không để hông nhấp nhô',
           'Không dùng tạ quá nặng — mất stability',
         ],
-        gif_url: BASE + '0521-b9kqlBy.gif',
+        gif_url: BASE + 'renegade-row.gif',
         superset: null,
       },
       {
@@ -612,7 +612,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
           'Không squat xuống — đây là hip hinge, không phải squat',
           'Không để tạ bay quá cao đầu — ngang vai là đủ',
         ],
-        gif_url: BASE + '0549-UHJlbu3.gif',
+        gif_url: BASE + 'kb-swing.gif',
         superset: null,
       },
       {
@@ -632,7 +632,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không làm quá nhanh đến mức mất form squat khi burpee',
         ],
-        gif_url: BASE + '1160-dK9394r.gif',
+        gif_url: BASE + 'burpee.gif',
         superset: null,
       },
       {
@@ -652,7 +652,7 @@ export const WORKOUT_PLAN: WorkoutDay[] = [
         avoid: [
           'Không tiếp đất bằng gót chân — nhón chân',
         ],
-        gif_url: BASE + '3636-ealLwvX.gif',
+        gif_url: BASE + 'high-knees.gif',
         superset: null,
       },
     ],
